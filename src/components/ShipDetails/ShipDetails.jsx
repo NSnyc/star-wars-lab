@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const ShipDetails = ({shipDetails, pilots, isLoadingPilotData}) => {
   return (
-    <div className={styles.shipDetails}>
+    <div className={shipDetails}>
       <h2>Name: {shipDetails.name.toLowerCase()}</h2>
       <h2>model: {shipDetails.model.toLowerCase()}</h2>
       <ul>pilots:
